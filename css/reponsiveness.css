@@ -1,0 +1,84 @@
+@media screen and (max-width: 992px) {
+    .single-form input{
+        width: 150px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    nav{
+        position: absolute;
+        flex-direction: column;
+        width: 100%;
+        left: 0;
+        top: 67px;
+        max-height: 0px;
+        background-color: white;
+overflow: hidden;
+        transition:  0.4s ease;
+    }
+    nav a{
+        width: fit-content;
+    }
+    nav.showed{
+        padding: 0px 40px;
+        max-height: 500px;
+        padding-bottom: 20px;
+        box-shadow:   0 5px 10px rgba(0, 0, 0, 0.11);
+    }
+    .hamburger{
+        display: block;
+        transition: .4s ease;
+    }
+    .rotate{
+        transform: rotate(180deg);
+    }
+    header{
+        justify-content: center;
+    }
+    .hero-section h1{
+        font-size: 24px;
+    }
+    .form-container{
+        justify-content: center;
+    }
+    .single-form-container{
+        background-color: transparent;
+    }
+    .single-form{
+        min-width: 90%;
+        flex-direction: column;
+        padding: 30px;
+        gap: 40px;
+        height: fit-content;
+        position: relative;
+        margin:  0 auto;
+        margin-bottom: 20px;
+    }
+    .single-form i{
+        position: absolute;
+        right: 20px;
+    }
+    .single-form input{
+        width: 300px;
+    }
+    .translate{
+        transform: none;
+    }
+    .count{
+        flex-direction: column;
+    }
+    form{
+        flex-direction: column;
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+    }
+    form:hover input{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.31);
+    }
+    form button:hover{
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.31);
+    } 
+    form button{
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
